@@ -1,4 +1,4 @@
-import { Box } from "@wongchisum/fizz";
+import { Box } from '@wongchisum/fizz';
 
 function App() {
   return (

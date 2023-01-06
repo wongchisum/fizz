@@ -1,0 +1,33 @@
+{
+  "name": "fizz",
+  "private": true,
+  "author": "wongchisum",
+  "version": "0.0.1",
+  "scripts": {
+    "lint:es": "eslint --ext .js,.jsx,.ts,.tsx",
+    "lint:style": "prettier --write ./packages/**/*.{ts,tsx,js,jsx}",
+    "commit": "pnpm cz",
+    "dev": "pnpm --filter playground dev"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.31.0",
+    "eslint-config-alloy": "^4.8.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3"
+  }
+}
