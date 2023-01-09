@@ -6,6 +6,7 @@
   "scripts": {
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx",
     "lint:style": "prettier --write ./packages/**/*.{ts,tsx,js,jsx}",
+    "precommit":"pnpm lint:es && pnpm lint:style",
     "commit": "pnpm cz",
     "dev": "pnpm --filter playground dev",
     "changelog": "conventional-changelog -p -i CHANGELOG.md -s -r 0",

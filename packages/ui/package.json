@@ -1,17 +1,19 @@
 {
-    "name": "@wongchisum/fizz",
-    "private": true,
-    "author": "wongchisum",
-    "version": "0.0.1",
-    "scripts": {
-      "dev": "pnpm --filter playground dev"
-    },
-    "license": "ISC",
-    "devDependencies": {
-      "@types/react": "^18.0.26",
-      "@types/react-dom": "^18.0.10",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0"
-    }
+  "name": "@wongchisum/fizz",
+  "private": true,
+  "author": "wongchisum",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "pnpm --filter playground dev"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2"
   }
-  
+}
