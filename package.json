@@ -7,7 +7,8 @@
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx",
     "lint:style": "prettier --write ./packages/**/*.{ts,tsx,js,jsx}",
     "commit": "pnpm cz",
-    "dev": "pnpm --filter playground dev"
+    "dev": "pnpm --filter playground dev",
+    "changelog":"conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "config": {
     "commitizen": {
@@ -21,6 +22,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "commitizen": "^4.2.6",
+    "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.31.0",
     "eslint-config-alloy": "^4.8.0",
